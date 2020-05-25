@@ -167,7 +167,7 @@ Returns a promise that fulfills or rejects as soon as user successfully open the
 *For share multiple files, you must using option urls instead of url to share multiple files/images/docs.
 Example could be found in Example folder
 
-IMPORTANT NOTE: This forked version of react-native-share library is upgraded by saving temp file prior to share to `Download/tmp/` folder. Make sure to remove tmp file after the share operation! This was done due to the lack of support to store files directly in Download folder without the need for overwrite modal display.
+IMPORTANT NOTE for Android: This forked version of react-native-share library is upgraded by saving temp file prior to share to `Download/tmp/` folder. Make sure to remove tmp file after the share operation! This was done due to the lack of support to store files directly in Download folder without the need for overwrite modal display.
 
 
 ```jsx
